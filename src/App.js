@@ -1,7 +1,10 @@
 import React from "react";
+import Header from "./components/Header";
 
-const App = () => {
-  return <div>Now need to modify the content</div>;
-};
+const App = () => (
+  <div>
+    <Header />
+  </div>
+);
 
 export default App;
